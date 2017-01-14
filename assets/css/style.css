@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 20px;
+  background: #fff;
+  color: #000;
+}
+
+html {
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 20px;
+}
+
+ul { padding: 10px 10px 10px 0; }
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+a { color: #000; }
+
+@media (max-width: 40em) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.nightmode {
+  background: #000;
+  color: #fff;
+}
+
+.fa-adjust {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.fa-3x { padding: 10px 10px; }
+
+.fa-envelope:hover { color: #da3838; }
+.fa-github:hover { color: #333; }
+.fa-linkedin:hover { color: #007bb6; }
+.fa-facebook:hover { color: #3b5998; }
+.fa-twitter:hover { color: #00aced; }
+.fa-instagram:hover {
+  background: linear-gradient(145deg, #3051f1 10%, #c92bb7 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-youtube:hover { color: #bb0000; }
+.fa-tumblr:hover { color: #32506d; }
+.fa-soundcloud:hover { color: #ff3a00; }

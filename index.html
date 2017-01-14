@@ -1,0 +1,76 @@
+<html>
+
+  <head>
+    <title>Pierre Vanoverschelde</title>
+    <meta name="description" content="Pierre Vanoverschelde website">
+    <meta name="keywords" content="pierre, vanoverschelde, linkedin, cv, job, euromed, kedge, le wagon, dev, developer, pro, full stack, js, html, css, ruby, rails">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Main content -->
+    <div class="main-content">
+      <div>
+        <h1>Hi, I'm Pierre Vanoverschelde<i class="fa fa-adjust toggle-light" aria-hidden="true"></i></h1>
+        <h4>Web developer for the most part. The Leftovers, David Fincher and music lover for the rest.</h4>
+        <h4>If you want to know more about me, feel free to follow me (or send me an email):</h4>
+        <ul>
+          <li><a href="mailto:pierre.vano@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/pierrevano"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/pierrevanoverschelde"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/pierreschelde"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.twitter.com/pierreschelde"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/pierreschelde"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCpSMOn2qG_smhVFhInoxaVg?sub_confirmation=1"><i class="fa fa-youtube fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="http://toucheradiostation.com/"><i class="fa fa-tumblr fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="https://soundcloud.com/toucheradiostation"><i class="fa fa-soundcloud fa-3x" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- StatCounter -->
+    <script type="text/javascript">
+      var sc_project=9076218;
+      var sc_invisible=1;
+      var sc_security="c10d6c16";
+      var scJsHost = (("https:" == document.location.protocol) ?
+      "https://secure." : "http://www.");
+      document.write("<sc"+"ript type='text/javascript' src='" +
+      scJsHost+
+      "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript>
+      <div class="statcounter">
+        <a title="tumblr visitor" href="http://statcounter.com/tumblr/" target="_blank">
+        <img class="statcounter" src="http://c.statcounter.com/9076218/0/c10d6c16/1/" alt="tumblr visitor">
+        </a>
+      </div>
+    </noscript>
+
+    <!-- Nightmode and open in new tab links -->
+    <script>
+      if (localStorage.getItem("preferences") != null) {
+        getPreferences = localStorage.preferences;
+        $("html, body, a").addClass('nightmode');
+      }
+      $(document).ready(function() {
+        $("i.toggle-light").click(function(){
+          getPreferences = localStorage.preferences;
+          $("html, body, a").toggleClass('nightmode');
+          if ($("html, body, a").hasClass('nightmode')) {
+            localStorage.setItem('preferences', 'nightmode');
+          }
+          else {
+            localStorage.removeItem('preferences');
+          }
+        });
+      });
+      $('ul a').attr('target', '_blank');
+    </script>
+
+  </body>
+</html>
