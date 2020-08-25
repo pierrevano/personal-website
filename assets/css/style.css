@@ -38,6 +38,7 @@ a {
 
 .fa-3x { padding: 10px; }
 
+.fa-file-pdf-o:hover { color: #0260FB; }
 .fa-envelope:hover { color: #da3838; }
 .fa-github:hover { color: #333; }
 .fa-linkedin:hover { color: #007bb6; }
